@@ -1,15 +1,50 @@
 # VAN Task Tracking
 
-## Task: Application Analysis & Documentation
+## Task: Backend and Frontend Integration Documentation
 
-- **Goal:** Analyze the dojo-mvp application and provide detailed documentation on how it works, including project structure, routing, main components, and notable patterns.
+- **Goal:** Document the process of creating the backend and linking it to the frontend, including API endpoints, data flow, and integration points.
 - **Status:** Complete
 - **Mode:** VAN
-- **Archive:** See `memory-bank/archive/archive-van-application-docs.md`
 - **Steps:**
-  - [x] Create memory-bank and tasks.md
-  - [x] Analyze project structure and main directories
-  - [x] Identify entry points, routing, and main UI components
-  - [x] Document key patterns/utilities
-  - [x] Draft and review detailed documentation
-  - [x] Finalize and archive documentation
+  - [x] Gather existing documentation
+  - [x] Identify key integration points
+  - [x] Document API endpoints and data flow
+  - [x] Review and finalize documentation
+  - [x] Archive the completed documentation
+
+## Task: Frontend and Backend Integration (Phase 1)
+
+- **Goal:** Implement Phase 1 of the integration plan, focusing on the MVP implementation while setting up the structure for Phases 2 and 3.
+- **Status:** In Progress
+- **Mode:** VAN
+- **Steps:**
+  - [ ] Set up monorepo structure
+  - [ ] Migrate existing frontend to monorepo
+  - [ ] Implement backend API for MVP
+  - [ ] Configure Supabase for database and storage
+  - [ ] Deploy frontend to Vercel
+  - [ ] Deploy backend to Railway
+  - [ ] Prepare infrastructure for AI integration (Phase 2)
+  - [ ] Document the setup and integration process
+
+## Task: Prepare for AI Integration (Phase 2)
+
+- **Goal:** Prepare the infrastructure and codebase for AI integration in Phase 2.
+- **Status:** Pending
+- **Mode:** VAN
+- **Steps:**
+  - [ ] Set up Redis queue
+  - [ ] Implement AI processing hooks in the backend
+  - [ ] Configure environment for AI worker deployment
+  - [ ] Document AI integration plan
+
+## Task: Full AI Integration (Phase 3)
+
+- **Goal:** Complete the AI integration and enable AI-powered features.
+- **Status:** Pending
+- **Mode:** VAN
+- **Steps:**
+  - [ ] Deploy AI worker on Railway
+  - [ ] Enable AI features in the frontend
+  - [ ] Conduct testing and validation
+  - [ ] Document AI integration and deployment
